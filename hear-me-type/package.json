@@ -1,5 +1,5 @@
 {
-  "name": "electron-quick-start",
+  "name": "hear-me-type",
   "version": "1.0.0",
   "description": "Play a sound for every keyboard key you press.",
   "main": "main.js",
