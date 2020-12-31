@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv = "Content-Security-Policy" content = "default-src 'self'; script-src 'self'">
+    <meta http-equiv = "X-Content-Security-Policy" content = "default-src 'self'; script-src 'self'">
+    <meta name = "viewport" content = "width=device-width, minimum-scale=1">
+    <title>Basic Emailer</title>
+    <meta name = "author" content = "Reuben Devanesan">
+    <link rel = "stylesheet" href = "index.css">
+  </head>
+  <body>
+    <!--For responsiveness in mobile devices-->
+    <div class="site">
+      <h1>Emailer!</h1>
+      <hr>
+      <p>Just enter the email address, the subject and the body of the email. The mail will then be sent using nodemailer.</p>
+      <form>
+        <div class="form-group">
+          <label for="email">Email address:</label>
+          <br>
+          <input type="email" class="form-control" placeholder="Enter email" id="email">
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="sub">Subject:</label>
+          <br>
+          <input type="text" class="form-control" placeholder="Enter subject" id="sub">
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="bod">Body:</label>
+          <br>
+          <input type="text" class="form-control" placeholder="Enter subject" id="bod">
+        </div>  
+        <br>
+        <button type="submit" class="btn btn-primary" id="submitbtn">Submit</button>
+      </form> 
+    </div>     
+    <script src = "./index.js"></script>
+  </body>
+</html>

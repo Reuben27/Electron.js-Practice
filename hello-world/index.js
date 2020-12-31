@@ -1,1 +1,0 @@
-console.log("Index.js file is up and running my buoi!");
