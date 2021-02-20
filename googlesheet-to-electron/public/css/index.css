@@ -1,0 +1,23 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: auto;
+    padding: 2rem;
+    width: 100vw;
+    height: 100vh;
+}
+
+.list {
+    font-family:sans-serif;
+}
+
+th{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid grey;
+}
+
+td{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid grey;
+}

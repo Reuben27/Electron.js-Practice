@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset = "UTF-8">
+  <meta name = "viewport" content = "width=device-width, initial-scale=1">
+  <title>Googlesheets to electron!</title>
+  <link rel = "stylesheet" href = "./public/css/index.css">
+  <!--Bootstap-->
+  <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src = "https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <link rel = "stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+  <!--Datatables-->
+  <link rel = "stylesheet" type = "text/css" href = "https://cdn.datatables.net/1.10.23/css/jquery.dataTables.css">
+  <script type = "text/javascript" charset = "utf8" src = "https://cdn.datatables.net/1.10.23/js/jquery.dataTables.js"></script>
+  <!--List.js-->
+  <script type = "text/javascript" src = "./public/js/plugins/list.min.js"></script>
+  <script src = "script.js"></script>
+</head>
+
+<body>
+  <h1>Google sheets to electron</h1>
+  <p>The data below has been fetched from a google spreadsheet!</p>
+  <div id = "users">    
+    <table id="table_id" class="display">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Batch</th>
+          <th>Branch</th>
+          <th>Project Course Code</th>
+          <th>Have you done PC before?</th>
+          <th>Supervisor's Discipline</th>
+          <th>Supervisor's Name</th>
+          <th>Project Topic</th>
+          <th>Project Brief</th>
+        </tr>
+      </thead>
+      <tbody>          
+      </tbody>
+  </table>
+  <br><br>
+  </div>
+</body>
+</html>

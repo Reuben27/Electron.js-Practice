@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hello World!</title>
+  <link rel="stylesheet" href="./css/index.css">
+  <!------->
+  <!-----jQuery and Bootstrap-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/plugins/filter_multi_select.css" />
+  <script src="./js/plugins/filter-multi-select-bundle.min.js"></script>
+  <!----Datatables-->
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.23/css/jquery.dataTables.css">
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.js"></script>
+  <!-----Checkboxes-->
+  <link type="text/css" href="https://gyrocode.github.io/jquery-datatables-checkboxes/1.2.12/css/dataTables.checkboxes.css" rel="stylesheet" />
+  <script type="text/javascript" src="https://gyrocode.github.io/jquery-datatables-checkboxes/1.2.12/js/dataTables.checkboxes.min.js"></script>
+  <!------->
+  <script type="text/javascript" src="./js/plugins/list.min.js"></script>
+  <script src="./script.js"></script>
+
+</head>
+
+<body>
+  <h1>Using Google Sheets</h1>
+
+  <div id="users">
+    <div>
+      
+      <select multiple name="occupation" id="occupations">
+        <option value="student">Student</option>
+        <option value="working professional">Working Professional</option>
+        <option value="other">Other</option>
+      </select>
+
+      <button id = "filter">Filter Data</button>
+      <button id = "send-email">Send Email</button>
+      <button id = "import-data">Import Data</button>
+
+    </div>
+    <hr>
+    <!---------<ul class="list"></ul>
+    <ul class="pagination"></ul>------->
+    <table id="table_id" class="display">
+      <thead>
+          <tr>
+              <th></th>
+              <th>Timestamp</th>
+              <th>Name</th>
+              <th>Occupation</th>
+              <th>Question</th>
+              <th>Email Address</th>
+              <th>College/Organization</th>
+          </tr>
+      </thead>
+      <tbody>
+          
+      </tbody>
+  </table>
+  </div>
+
+</body>
+
+</html>

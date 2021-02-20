@@ -25,16 +25,16 @@ function sendemails(email, subject, body){
     var transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-        user: 'Your email',
-        pass: 'Your password'
+        user: '<your email>',
+        pass: '<your password>'
         }
     });
 
     var mailOptions = {
-        from: "Your email",
+        from: "<your email>",
         to: email,
         subject: subject,
-        text: body
+        html: body
     };
 
     console.log(mailOptions);
